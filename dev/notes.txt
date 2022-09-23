@@ -1,2 +1,3 @@
 - x when page loads, change message
-- .. click a button "change message" to change the message
+- x click a button "change message" to change the message
+- .. change to flashcard app: read question, button shows answer
