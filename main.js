@@ -1,9 +1,9 @@
-const messageElem = document.querySelector('.message');
-const changeMessageButtonElem = document.querySelector('.changeMessageButton');
+const frontElem = document.querySelector('.front');
+const backElem = document.querySelector('.back');
+const showAnswerButtonElem = document.querySelector('.showAnswerButton');
 
-messageElem.innerHTML = 'NEW MESSAGE';
+showAnswerButtonElem.addEventListener('click', () => {
+	showAnswerButtonElem.style.display = 'none';	
+	backElem.innerHTML = "addEventListener('click', () => {...})";
 
-changeMessageButtonElem.addEventListener('click', () => {
-	messageElem.innerText = 'Welcome to this interactive website.';
-	messageElem.style.color = 'yellow';
 });

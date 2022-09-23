@@ -1,3 +1,6 @@
 - x when page loads, change message
 - x click a button "change message" to change the message
 - .. change to flashcard app: read question, button shows answer
+- add another flashcard
+- publich to netlify
+- test on smartphones
